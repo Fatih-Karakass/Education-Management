@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Teacher>
+
+<div class="container mt-5">
+
+    <p class="h2">List Of Teachers</p>
+    <a class="btn btn-primary" asp-controller="Teacher" asp-action="Create">Add Teacher</a>
+    
+
+    <table class="table table-striped">
+        <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th></th>
+        </thead>
+
+        <tbody>
+            @foreach(Teacher teacher in Model) {
+                <tr>
+                    <td>@teacher.Name</td>
+                    <td>@teacher.Email</td>
+                    <td>@teacher.Age</td>
+                    <td>@teacher.Address</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

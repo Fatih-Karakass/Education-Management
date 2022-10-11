@@ -1,0 +1,29 @@
+﻿@model Teacher
+
+<div class="container">
+   <p class="h2">Create a new Teacher</p>
+
+   <form method="post">
+
+       <label asp-for="Name">Name: </label>
+       <input asp-for="Name" type="text" class="form-control"/>
+        <span class ="text-danger" asp-validation-for="Name"></span>
+
+        <label asp-for="Email">Email: </label>
+        <input asp-for="Email" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Email"></span>
+
+        <label asp-for="Age">Age: </label>
+        <input asp-for="Age" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Age"></span>
+
+        <label asp-for="Address">Address: </label>
+        <input asp-for="Address" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Address"></span>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+
+   </form>
+
+
+</div>

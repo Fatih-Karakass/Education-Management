@@ -1,4 +1,5 @@
 using Ders1.DataAccess;
+using Ders1.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
