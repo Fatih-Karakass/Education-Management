@@ -32,6 +32,7 @@ namespace Ders1.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Teacher teacher)
         {
+            // Server side Validation
             if (!ModelState.IsValid)
             {
                 return View(teacher);
@@ -39,6 +40,8 @@ namespace Ders1.Controllers
 
             _db.Add(teacher);
             _db.SaveChanges();
+
+            TempData["success"] = "Teacher created succeffully";
             
             return RedirectToAction(nameof(Index));
         }
@@ -47,6 +50,7 @@ namespace Ders1.Controllers
         {
             if (id == null || id == 0)
             {
+                
                 return NotFound();
             }
             Teacher teacher = _db.Find<Teacher>(id);
@@ -66,6 +70,7 @@ namespace Ders1.Controllers
 
             _db.Update(teacher);
             _db.SaveChanges();
+            TempData["success"] = "Teacher updated succeffully";
 
             return RedirectToAction(nameof(Index));
         }
@@ -104,6 +109,7 @@ namespace Ders1.Controllers
 
             _db.Remove(teacher);
             _db.SaveChanges();
+            TempData["success"] = "Teacher deleted succeffully";
 
             return RedirectToAction(nameof(Index));
         }

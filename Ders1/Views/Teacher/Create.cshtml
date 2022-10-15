@@ -5,25 +5,27 @@
 
    <form method="post">
 
-       <label asp-for="Name">Name: </label>
+       <label asp-for="Name"></label>
        <input asp-for="Name" type="text" class="form-control"/>
         <span class ="text-danger" asp-validation-for="Name"></span>
 
-        <label asp-for="Email">Email: </label>
+        <label asp-for="Email"></label>
         <input asp-for="Email" type="text" class="form-control" />
         <span class="text-danger" asp-validation-for="Email"></span>
 
-        <label asp-for="Age">Age: </label>
+        <label asp-for="Age"></label>
         <input asp-for="Age" type="text" class="form-control" />
         <span class="text-danger" asp-validation-for="Age"></span>
 
-        <label asp-for="Address">Address: </label>
+        <label asp-for="Address"></label>
         <input asp-for="Address" type="text" class="form-control" />
         <span class="text-danger" asp-validation-for="Address"></span>
 
         <button type="submit" class="btn btn-primary">Create</button>
-
    </form>
-
-
 </div>
+
+@*Client side valdation*@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
