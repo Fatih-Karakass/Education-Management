@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Ders1\\Ders1\\Ders1.csproj",
+      "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Education-Management\\Ders1\\Ders1.csproj",
       "projectName": "Ders1",
-      "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Ders1\\Ders1\\Ders1.csproj",
+      "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Education-Management\\Ders1\\Ders1.csproj",
       "packagesPath": "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Ders1\\Ders1\\obj\\",
+      "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Education-Management\\Ders1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ErgünDenizBuyruk\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9/3BEeg7iP9IqxhYYZSCvs6ZBFupQi3SPco/uhONr9RtWxkr4JDPc2CZ/fCp0btKlE64r6Vl4VOzm2AR9I6+2w==",
+  "dgSpecHash": "RMjNH59ytZz+hI6NFTpm8ODjBMnbUbo7D07zVZyTVB1Lc62BdoEWck6YjrGJUE6d23940ygN6HnZsURR7316VA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Ders1\\Ders1\\Ders1.csproj",
+  "projectFilePath": "C:\\Users\\ErgünDenizBuyruk\\Desktop\\Projects\\.NET-Projects\\Education-Management\\Ders1\\Ders1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
