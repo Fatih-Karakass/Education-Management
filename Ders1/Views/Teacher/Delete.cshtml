@@ -1,0 +1,29 @@
+﻿@model Teacher
+
+<div class="container">
+    <p class="h2">Delete Teacher</p>
+
+    <form method="post">
+
+        <input hidden asp-for="@Model.Id" />
+
+        <label asp-for="Name">Name: </label>
+        <input disabled asp-for="Name" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Name"></span>
+
+        <label asp-for="Email">Email: </label>
+        <input disabled asp-for="Email" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Email"></span>
+
+        <label asp-for="Age">Age: </label>
+        <input disabled asp-for="Age" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Age"></span>
+
+        <label asp-for="Address">Address: </label>
+        <input disabled asp-for="Address" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Address"></span>
+
+        <button type="submit" class="btn btn-danger">Delete</button>
+
+    </form>
+</div>

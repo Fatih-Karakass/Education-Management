@@ -1,7 +1,6 @@
 ﻿using Ders1.DataAccess;
 using Ders1.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Ders1.Controllers
 {
@@ -41,7 +40,72 @@ namespace Ders1.Controllers
             _db.Add(teacher);
             _db.SaveChanges();
             
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Update(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            Teacher teacher = _db.Find<Teacher>(id);
+
+            return View(teacher);
+        }
+
+        // Post
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update(Teacher teacher)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(teacher);
+            }
+
+            _db.Update(teacher);
+            _db.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            Teacher teacher = _db.Find<Teacher>(id);
+
+            if (teacher == null)
+            {
+                return NotFound();
+            }
+
+            return View(teacher);
+        }
+
+        // Post
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePOST(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            Teacher teacher = _db.Find<Teacher>(id);
+            if (teacher == null)
+            {
+                return NotFound();
+            }
+
+            _db.Remove(teacher);
+            _db.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }
