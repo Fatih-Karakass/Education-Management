@@ -1,18 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Ders1.DataAccess;
+using Ders1.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Ders1.Controllers
 {
     public class LessonController : Controller
     {
-        private readonly ILogger<LessonController> _logger;
-        public LessonController(ILogger<LessonController> logger)
+        private readonly AppDbContext _db;
+        public LessonController(AppDbContext db)
         {
-            _logger = logger;
-
+            _db = db;
         }
+
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Lesson> list = _db.Lesson.ToList();
+            return View(list);
         }
     }
 }

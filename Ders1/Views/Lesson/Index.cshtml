@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<Lesson>
 <div class="container mt-5">
 
     <div class="d-flex justify-content-between mb-5">
@@ -11,20 +11,20 @@
 
     <table class="table table-striped">
         <thead>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Age</th>
-        <th>Address</th>
+        <th>Id</th>
+        <th>Lesson Name</th>
+        <th>Lesson Teacher</th>
+        <th>Lesson Code</th>
         <th></th>
         </thead>
 
         <tbody>
-           
+           @foreach(Lesson lesson in Model){
                 <tr>
-                    <td>Name</td>
-                    <td>Email</td>
-                    <td>Age</td>
-                    <td>Address</td>
+                    <td>@lesson.Id</td>
+                    <td>@lesson.LessonName</td>
+                    <td>@lesson.LessonTeacher</td>
+                    <td>@lesson.LessonCode</td>
                     <td class="d-flex justify-content-end">
                         <a class="btn btn-primary me-2" asp-controller="Teacher"
                        asp-action="Update" asp-route-id="Id">
@@ -37,6 +37,7 @@
                         </a>
                     </td>
                 </tr>
+                }
            
         </tbody>
     </table>
