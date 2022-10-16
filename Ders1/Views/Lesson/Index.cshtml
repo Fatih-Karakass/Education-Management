@@ -1,0 +1,44 @@
+﻿
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-between mb-5">
+        <p class="h2">List Of Teachers</p>
+        <a class="btn btn-primary px-3" asp-controller="Teacher"
+           asp-action="Create">Add Lesson</a>
+    </div>
+
+
+
+    <table class="table table-striped">
+        <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th></th>
+        </thead>
+
+        <tbody>
+           
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Age</td>
+                    <td>Address</td>
+                    <td class="d-flex justify-content-end">
+                        <a class="btn btn-primary me-2" asp-controller="Teacher"
+                       asp-action="Update" asp-route-id="Id">
+                            Update
+                        </a>
+
+                        <a class="btn btn-danger" asp-controller="Teacher"
+                       asp-action="Delete" asp-route-id="Id">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+           
+        </tbody>
+    </table>
+</div>
+
