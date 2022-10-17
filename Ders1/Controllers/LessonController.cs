@@ -69,5 +69,28 @@ namespace Ders1.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+        
+        public IActionResult Update(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            Lesson lesson = _db.Find<Lesson>(id);
+            return View(lesson);
+
+        }
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult Update(Lesson lesson)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(lesson);
+            }
+            _db.Update(lesson);
+            _db.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
