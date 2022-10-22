@@ -1,0 +1,12 @@
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.AssemblyInfo.cs
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+D:\Projeler\.NET-Projeleri\Education-Management\Models\bin\Debug\net6.0\Models.deps.json
+D:\Projeler\.NET-Projeleri\Education-Management\Models\bin\Debug\net6.0\Models.dll
+D:\Projeler\.NET-Projeleri\Education-Management\Models\bin\Debug\net6.0\Models.pdb
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.dll
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\refint\Models.dll
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\Models.pdb
+D:\Projeler\.NET-Projeleri\Education-Management\Models\obj\Debug\net6.0\ref\Models.dll

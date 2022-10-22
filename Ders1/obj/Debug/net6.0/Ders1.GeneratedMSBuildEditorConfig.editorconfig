@@ -8,73 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ders1
 build_property.RootNamespace = Ders1
-build_property.ProjectDir = C:\Users\user\Desktop\Education-Management\Ders1\
+build_property.ProjectDir = D:\Projeler\.NET-Projeleri\Education-Management\Ders1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\Education-Management\Ders1
+build_property.MSBuildProjectDirectory = D:\Projeler\.NET-Projeleri\Education-Management\Ders1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Home/Index.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Home/Privacy.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Lesson/Create.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Lesson/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Lesson/Index.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Lesson/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Lesson/Remove.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Lesson/Remove.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXFJlbW92ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Lesson/Update.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Lesson/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Shared/Error.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Shared/_Notification.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Teacher/Create.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Teacher/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Teacher/Delete.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Teacher/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Teacher/Index.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Teacher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Teacher/Update.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Teacher/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/_ViewImports.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/_ViewStart.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Education-Management/Ders1/Views/Shared/_Layout.cshtml]
+[D:/Projeler/.NET-Projeleri/Education-Management/Ders1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-udzoxwdnt3

@@ -1,0 +1,12 @@
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\bin\Debug\net6.0\Utility.deps.json
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\bin\Debug\net6.0\Utility.dll
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\bin\Debug\net6.0\Utility.pdb
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.csproj.AssemblyReference.cache
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.AssemblyInfoInputs.cache
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.AssemblyInfo.cs
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.csproj.CoreCompileInputs.cache
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.dll
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\refint\Utility.dll
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\Utility.pdb
+D:\Projeler\.NET-Projeleri\Education-Management\Utility\obj\Debug\net6.0\ref\Utility.dll

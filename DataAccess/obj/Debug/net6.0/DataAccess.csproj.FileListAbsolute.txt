@@ -1,0 +1,17 @@
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\bin\Debug\net6.0\Domain.dll
+D:\Projeler\.NET-Projeleri\Education-Management\DataAccess\bin\Debug\net6.0\Domain.pdb
