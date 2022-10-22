@@ -1,0 +1,29 @@
+﻿@model Lesson
+
+<div class="container">
+    <p class="h2">Create a new Lesson</p>
+
+    <form method="post">
+
+       
+        <label asp-for="LessonName"></label>
+        <input asp-for="LessonName" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="LessonName"></span>
+        <br />
+
+        <label asp-for="LessonTeacher"></label>
+        <input asp-for="LessonTeacher" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="LessonTeacher"></span>
+        <br />
+        <label asp-for="LessonCode"></label>
+        <input asp-for="LessonCode" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="LessonCode"></span>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>
+
+@*Client side valdation*@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
