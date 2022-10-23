@@ -1,4 +1,5 @@
-﻿using Ders1.DataAccess;
+﻿using DataAccess.Repository.IRepository;
+using Ders1.DataAccess;
 using Ders1.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,17 +7,17 @@ namespace Ders1.Controllers
 {
     public class TeacherController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly IUnitOfWork unitOfWork;
 
-        public TeacherController(AppDbContext _db)
+        public TeacherController(IUnitOfWork unitOfWork)
         {
-            this._db = _db;
+            this.unitOfWork = unitOfWork;
         }
 
         // Index Action
         public IActionResult Index()
         {
-            IEnumerable<Teacher> list = _db.Teachers.ToList();
+            IEnumerable<Teacher> list = unitOfWork.Teacher.GetAll();
             return View(list);
         }
 
@@ -38,8 +39,8 @@ namespace Ders1.Controllers
                 return View(teacher);
             }
 
-            _db.Add(teacher);
-            _db.SaveChanges();
+            unitOfWork.Teacher.Add(teacher);
+            unitOfWork.Save();
 
             TempData["success"] = "Teacher created succeffully";
             
@@ -53,7 +54,7 @@ namespace Ders1.Controllers
                 
                 return NotFound();
             }
-            Teacher teacher = _db.Find<Teacher>(id);
+            Teacher teacher = unitOfWork.Teacher.Get(x => x.Id == id);
 
             return View(teacher);
         }
@@ -68,8 +69,9 @@ namespace Ders1.Controllers
                 return View(teacher);
             }
 
-            _db.Update(teacher);
-            _db.SaveChanges();
+            unitOfWork.Teacher.Update(teacher);
+            unitOfWork.Save();
+
             TempData["success"] = "Teacher updated succeffully";
 
             return RedirectToAction(nameof(Index));
@@ -81,7 +83,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            Teacher teacher = _db.Find<Teacher>(id);
+            Teacher teacher = unitOfWork.Teacher.Get(x => x.Id == id);
 
             if (teacher == null)
             {
@@ -101,14 +103,15 @@ namespace Ders1.Controllers
                 return NotFound();
             }
 
-            Teacher teacher = _db.Find<Teacher>(id);
+            Teacher teacher = unitOfWork.Teacher.Get(x => x.Id == id);
             if (teacher == null)
             {
                 return NotFound();
             }
 
-            _db.Remove(teacher);
-            _db.SaveChanges();
+            unitOfWork.Teacher.Remove(teacher);
+            unitOfWork.Save();
+
             TempData["success"] = "Teacher deleted succeffully";
 
             return RedirectToAction(nameof(Index));

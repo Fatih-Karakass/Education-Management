@@ -1,3 +1,5 @@
+using DataAccess.Repository;
+using DataAccess.Repository.IRepository;
 using Ders1.DataAccess;
 using Ders1.Models;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(
     options =>options.UseSqlServer(
     builder.Configuration.GetConnectionString("Default")));
 
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 

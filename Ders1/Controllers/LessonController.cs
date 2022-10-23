@@ -1,4 +1,6 @@
-﻿using Ders1.DataAccess;
+﻿using DataAccess.Repository;
+using DataAccess.Repository.IRepository;
+using Ders1.DataAccess;
 using Ders1.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,15 +8,15 @@ namespace Ders1.Controllers
 {
     public class LessonController : Controller
     {
-        private readonly AppDbContext _db;
-        public LessonController(AppDbContext db)
+        private readonly IUnitOfWork unitOfWork;
+        public LessonController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            this.unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Lesson> list = _db.Lesson.ToList();
+            IEnumerable<Lesson> list = unitOfWork.Lesson.GetAll();
             return View(list);
         }
         public IActionResult Create()
@@ -31,8 +33,8 @@ namespace Ders1.Controllers
             return View(lesson);
 
             }
-            _db.Lesson.Add(lesson);
-            _db.SaveChanges();
+            unitOfWork.Lesson.Add(lesson);
+            unitOfWork.Save();
             
             return RedirectToAction(nameof(Index));
 
@@ -43,7 +45,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            Lesson lesson = _db.Find<Lesson>(id);
+            Lesson lesson = unitOfWork.Lesson.Get(x => x.Id == id);
             if (lesson == null)
             {
                 return NotFound();
@@ -59,13 +61,14 @@ namespace Ders1.Controllers
                 return NotFound();
             }
             
-            Lesson lesson = _db.Find<Lesson>(id);
+            Lesson lesson = unitOfWork.Lesson.Get(x => x.Id == id);
             if (lesson == null)
             {
                 return NotFound();
             }
-            _db.Lesson.Remove(lesson);
-            _db.SaveChanges();
+            unitOfWork.Lesson.Remove(lesson);
+            unitOfWork.Save();
+
             return RedirectToAction(nameof(Index));
 
         }
@@ -76,7 +79,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            Lesson lesson = _db.Find<Lesson>(id);
+            Lesson lesson = unitOfWork.Lesson.Get(x => x.Id == id);
             return View(lesson);
 
         }
@@ -88,8 +91,9 @@ namespace Ders1.Controllers
             {
                 return View(lesson);
             }
-            _db.Update(lesson);
-            _db.SaveChanges();
+            unitOfWork.Lesson.Update(lesson);
+            unitOfWork.Save();
+
             return RedirectToAction(nameof(Index));
         }
     }
