@@ -1,10 +1,12 @@
 ﻿using DataAccess.Repository.IRepository;
 using Ders1.DataAccess;
+using Ders1.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,12 +24,12 @@ namespace DataAccess.Repository
             dbSet = db.Set<T>();
         }
 
-        public void Add(T entity)
-        {
-            dbSet.Add(entity);
+        public async void AddAsync(T entity) { 
+            await dbSet.AddAsync(entity);
+
         }
 
-        public T Get(Expression<Func<T, bool>>? filter)
+        public async Task<T> GetAsync(Expression<Func<T, bool>>? filter)
         {
             IQueryable<T> query = dbSet;
 
@@ -36,10 +38,10 @@ namespace DataAccess.Repository
                 return query.FirstOrDefault();
             }
 
-            return query.Where(filter).FirstOrDefault();
+            return await query.Where(filter).FirstOrDefaultAsync();
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null)
+        public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null)
         {
             IQueryable<T> query = dbSet;
 
@@ -48,12 +50,17 @@ namespace DataAccess.Repository
                 return query.ToList();
             }
 
-            return query.Where(filter).ToList();
+            return await query.Where(filter).ToListAsync();
         }
 
         public void Remove(T entity)
         {
             dbSet.Remove(entity);
+        }
+
+        public void Update(T entity)
+        {
+            dbSet.Update(entity);
         }
     }
 }

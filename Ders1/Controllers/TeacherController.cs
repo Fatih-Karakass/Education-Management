@@ -17,7 +17,7 @@ namespace Ders1.Controllers
         // Index Action
         public IActionResult Index()
         {
-            IEnumerable<Teacher> list = unitOfWork.Teacher.GetAll();
+            IEnumerable<Teacher> list = unitOfWork.Teacher.GetAllAsync().Result;
             return View(list);
         }
 
@@ -39,7 +39,7 @@ namespace Ders1.Controllers
                 return View(teacher);
             }
 
-            unitOfWork.Teacher.Add(teacher);
+            unitOfWork.Teacher.AddAsync(teacher);
             unitOfWork.Save();
 
             TempData["success"] = "Teacher created succeffully";
@@ -54,7 +54,7 @@ namespace Ders1.Controllers
                 
                 return NotFound();
             }
-            Teacher teacher = unitOfWork.Teacher.Get(x => x.Id == id);
+            Teacher teacher = unitOfWork.Teacher.GetAsync(x => x.Id == id).Result;
 
             return View(teacher);
         }
@@ -83,7 +83,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            Teacher teacher = unitOfWork.Teacher.Get(x => x.Id == id);
+            Teacher teacher = unitOfWork.Teacher.GetAsync(x => x.Id == id).Result;
 
             if (teacher == null)
             {
@@ -103,7 +103,7 @@ namespace Ders1.Controllers
                 return NotFound();
             }
 
-            Teacher teacher = unitOfWork.Teacher.Get(x => x.Id == id);
+            Teacher teacher = unitOfWork.Teacher.GetAsync(x => x.Id == id).Result;
             if (teacher == null)
             {
                 return NotFound();

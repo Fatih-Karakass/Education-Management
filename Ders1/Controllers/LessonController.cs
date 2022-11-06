@@ -3,6 +3,7 @@ using DataAccess.Repository.IRepository;
 using Ders1.DataAccess;
 using Ders1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Ders1.Controllers
 {
@@ -16,11 +17,20 @@ namespace Ders1.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Lesson> list = unitOfWork.Lesson.GetAll();
+            IEnumerable<Lesson> list = unitOfWork.Lesson.GetAllAsync().Result;
             return View(list);
         }
         public IActionResult Create()
         {
+            IEnumerable<SelectListItem> TeacherList = unitOfWork.Teacher.GetAllAsync().Result
+                .Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+
+            ViewBag.ListOfTeachers = TeacherList;
+
             Lesson lesson = new Lesson();
             return View(lesson);
         }
@@ -30,10 +40,9 @@ namespace Ders1.Controllers
         {
             if (!ModelState.IsValid)
             {
-            return View(lesson);
-
+                return View(lesson);
             }
-            unitOfWork.Lesson.Add(lesson);
+            unitOfWork.Lesson.AddAsync(lesson);
             unitOfWork.Save();
             
             return RedirectToAction(nameof(Index));
@@ -45,7 +54,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            Lesson lesson = unitOfWork.Lesson.Get(x => x.Id == id);
+            Lesson lesson = unitOfWork.Lesson.GetAsync(x => x.Id == id).Result;
             if (lesson == null)
             {
                 return NotFound();
@@ -61,7 +70,7 @@ namespace Ders1.Controllers
                 return NotFound();
             }
             
-            Lesson lesson = unitOfWork.Lesson.Get(x => x.Id == id);
+            Lesson lesson = unitOfWork.Lesson.GetAsync(x => x.Id == id).Result;
             if (lesson == null)
             {
                 return NotFound();
@@ -79,7 +88,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            Lesson lesson = unitOfWork.Lesson.Get(x => x.Id == id);
+            Lesson lesson = unitOfWork.Lesson.GetAsync(x => x.Id == id).Result;
             return View(lesson);
 
         }
@@ -96,5 +105,15 @@ namespace Ders1.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        /*
+        [HttpGet]
+        public IActionResult Aaa ()
+        {
+
+            IEnumerable<Lesson> list = unitOfWork.Lesson.Aaa();
+            return Json(list);
+        }
+        */
     }
 }

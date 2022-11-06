@@ -17,13 +17,5 @@ namespace DataAccess.Repository
             _db = db;
         }
 
-        public void Update(Teacher teacher)
-        {
-
-            if (teacher != null && teacher.Id > 0)
-            {
-                _db.Teachers.Update(teacher);
-            }
-        }
     }
 }

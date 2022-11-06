@@ -1,6 +1,7 @@
 ﻿using DataAccess.Repository.IRepository;
 using Ders1.DataAccess;
 using Ders1.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,14 +18,10 @@ namespace DataAccess.Repository
             _db = db;
         }
 
-        public void Update(Lesson lesson)
-        {
-            var lessonFromDb = _db.Lesson.FirstOrDefault(x => x.Id == lesson.Id);
+        //public IEnumerable<Lesson> Aaa()
+        //{
+        //    return _db.Lesson.Include(u => u.Teacher).ToList();
+        //}
 
-            if (lessonFromDb != null && lesson.Id > 0)
-            {
-                _db.Update(lesson);
-            }
-        }
     }
 }

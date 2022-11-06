@@ -9,6 +9,5 @@ namespace DataAccess.Repository.IRepository
 {
     public interface ITeacherRepository : IRepository<Teacher>
     {
-        void Update(Teacher teacher);
     }
 }

@@ -13,7 +13,8 @@ namespace Ders1.Models
         [DisplayName("İsim")]
         public string Name { get; set; }
 
-        [Required]
+        [Required (ErrorMessage = "Email Adresi Boş bırakılmamalıdır.")]
+        [EmailAddress(ErrorMessage = "Lütfen Geçerli Bir Mail Gİriniz.")]
         public string Email { get; set; }
 
         [Range(1, 100)]

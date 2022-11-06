@@ -11,10 +11,13 @@
         <span class="text-danger" asp-validation-for="LessonName"></span>
         <br />
 
-        <label asp-for="LessonTeacher"></label>
-        <input asp-for="LessonTeacher" type="text" class="form-control" />
-        <span class="text-danger" asp-validation-for="LessonTeacher"></span>
+        <label asp-for="TeacherId"></label>
+        <select asp-items="ViewBag.ListOfTeachers" class="form-select" asp-for="TeacherId">
+            <option disabled selected>---Lütfen bir tane seçiniz.---</option>
+        </select>
+        <span class="text-danger" asp-validation-for="TeacherId"></span>
         <br />
+
         <label asp-for="LessonCode"></label>
         <input asp-for="LessonCode" type="text" class="form-control" />
         <span class="text-danger" asp-validation-for="LessonCode"></span>

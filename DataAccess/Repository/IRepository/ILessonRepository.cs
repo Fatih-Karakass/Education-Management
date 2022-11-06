@@ -9,6 +9,6 @@ namespace DataAccess.Repository.IRepository
 {
     public interface ILessonRepository : IRepository<Lesson>
     {
-        void Update(Lesson lesson);
+        //public IEnumerable<Lesson> Aaa();
     }
 }
