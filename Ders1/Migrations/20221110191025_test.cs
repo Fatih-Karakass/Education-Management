@@ -4,10 +4,25 @@
 
 namespace Ders1.Migrations
 {
-    public partial class addTeacherToDb : Migration
+    public partial class test : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Lesson",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LessonName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LessonTeacher = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LessonCode = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Lesson", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Teachers",
                 columns: table => new
@@ -27,6 +42,9 @@ namespace Ders1.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Lesson");
+
             migrationBuilder.DropTable(
                 name: "Teachers");
         }
