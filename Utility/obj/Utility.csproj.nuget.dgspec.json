@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\Utility.csproj": {}
+    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj": {}
   },
   "projects": {
-    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\Utility.csproj": {
+    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\Utility.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\Utility.csproj",
-        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

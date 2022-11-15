@@ -44,7 +44,8 @@ namespace Ders1.Controllers
             }
             unitOfWork.Lesson.AddAsync(lesson);
             unitOfWork.Save();
-            
+            TempData["success"] = "Lesson created succesffully";
+
             return RedirectToAction(nameof(Index));
 
         }
@@ -59,6 +60,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
+
             return View(lesson);
         }
         [HttpPost, ActionName("Remove")]
@@ -77,6 +79,7 @@ namespace Ders1.Controllers
             }
             unitOfWork.Lesson.Remove(lesson);
             unitOfWork.Save();
+            TempData["success"] = "Lesson Remove succesffully";
 
             return RedirectToAction(nameof(Index));
 
@@ -89,6 +92,7 @@ namespace Ders1.Controllers
                 return NotFound();
             }
             Lesson lesson = unitOfWork.Lesson.GetAsync(x => x.Id == id).Result;
+
             return View(lesson);
 
         }
@@ -102,6 +106,7 @@ namespace Ders1.Controllers
             }
             unitOfWork.Lesson.Update(lesson);
             unitOfWork.Save();
+            TempData["success"] = "Lesson updated succesffully";
 
             return RedirectToAction(nameof(Index));
         }

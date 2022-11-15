@@ -4,11 +4,7 @@
 
 namespace DataAccess.Migrations
 {
-<<<<<<<< HEAD:DataAccess/Migrations/20221022094553_addLessonAndTeacherToDatabase.cs
     public partial class addLessonAndTeacherToDatabase : Migration
-========
-    public partial class test : Migration
->>>>>>>> 57ebb3517db82bba8f200473a5f68fcdc577c6d2:DataAccess/Migrations/20221110191025_test.cs
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

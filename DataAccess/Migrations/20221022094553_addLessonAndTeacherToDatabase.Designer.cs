@@ -11,13 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-<<<<<<<< HEAD:DataAccess/Migrations/20221022094553_addLessonAndTeacherToDatabase.Designer.cs
     [Migration("20221022094553_addLessonAndTeacherToDatabase")]
     partial class addLessonAndTeacherToDatabase
-========
-    [Migration("20221110191025_test")]
-    partial class test
->>>>>>>> 57ebb3517db82bba8f200473a5f68fcdc577c6d2:DataAccess/Migrations/20221110191025_test.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

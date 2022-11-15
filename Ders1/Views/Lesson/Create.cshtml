@@ -4,6 +4,8 @@
     <p class="h2">Create a new Lesson</p>
 
     <form method="post">
+
+       
         <label asp-for="LessonName"></label>
         <input asp-for="LessonName" type="text" class="form-control" />
         <span class="text-danger" asp-validation-for="LessonName"></span>
@@ -23,6 +25,7 @@
         <button type="submit" class="btn btn-primary">Create</button>
     </form>
 </div>
+
 @*Client side valdation*@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
