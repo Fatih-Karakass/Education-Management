@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\": {}
+    "C:\\Users\\ergun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Utility\\Utility.csproj",
+      "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\Utility.csproj",
       "projectName": "Utility",
-      "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Utility\\Utility.csproj",
-      "packagesPath": "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Utility\\obj\\",
+      "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\Utility.csproj",
+      "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
+      "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ErgünDenizBuyruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

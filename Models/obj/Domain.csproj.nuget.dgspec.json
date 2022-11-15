@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj": {}
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj": {
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj",
+        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\obj\\",
+        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
+        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ErgünDenizBuyruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Ders1\\Ders1.csproj": {}
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\DataAccess\\DataAccess.csproj": {
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\DataAccess\\obj\\",
+        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
+        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ErgünDenizBuyruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj"
+              "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj": {
+                "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj"
               }
             }
           }
@@ -85,17 +85,17 @@
         }
       }
     },
-    "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Ders1\\Ders1.csproj": {
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Ders1\\Ders1.csproj",
+        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj",
         "projectName": "Ders1",
-        "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Ders1\\Ders1.csproj",
-        "packagesPath": "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Ders1\\obj\\",
+        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj",
+        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
+        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ErgünDenizBuyruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,11 +109,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\DataAccess\\DataAccess.csproj"
+              "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj"
+              "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj": {
+                "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj"
               }
             }
           }
@@ -156,17 +156,17 @@
         }
       }
     },
-    "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj": {
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj",
+        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ErgünDenizBuyruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErgünDenizBuyruk\\Downloads\\Education-Management\\Models\\obj\\",
+        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
+        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ErgünDenizBuyruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
