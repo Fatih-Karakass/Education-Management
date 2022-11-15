@@ -4,7 +4,6 @@
     "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
     "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -13,16 +12,6 @@
         "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
         "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\DataAccess\\obj\\",
-=======
-    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj",
-        "projectName": "Ders1",
-        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj",
-        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\obj\\",
->>>>>>> fatih
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,7 +153,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-<<<<<<< HEAD
         }
       }
     },
@@ -226,8 +214,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-=======
->>>>>>> fatih
         }
       }
     }
