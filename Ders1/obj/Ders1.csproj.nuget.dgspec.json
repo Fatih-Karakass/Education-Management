@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj": {}
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj": {
+    "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj",
+        "projectUniqueName": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj",
         "projectName": "Ders1",
-        "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\obj\\",
+        "projectPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\Ders1.csproj",
+        "packagesPath": "C:\\Users\\ergun\\.nuget\\packages\\",
+        "outputPath": "D:\\Projeler\\.NET-Projeleri\\Education-Management\\Ders1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ergun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
