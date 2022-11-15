@@ -1,6 +1,6 @@
-﻿using DataAccess.Repository.IRepository;
-using Ders1.DataAccess;
-using Ders1.Models;
+﻿
+using Dershane.DataAccsess.DataAccess;
+using Dershane.DataAccsess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Repository
+namespace Dershane.DataAccsess.Repository
 {
 
     public class Repository<T> : IRepository<T> where T : class
@@ -24,7 +24,8 @@ namespace DataAccess.Repository
             dbSet = db.Set<T>();
         }
 
-        public async void AddAsync(T entity) { 
+        public async void AddAsync(T entity)
+        {
             await dbSet.AddAsync(entity);
 
         }

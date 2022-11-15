@@ -1,7 +1,7 @@
-using DataAccess.Repository;
-using DataAccess.Repository.IRepository;
-using Ders1.DataAccess;
-using Ders1.Models;
+
+using Dershane.DataAccsess.DataAccess;
+using Dershane.DataAccsess.Repository;
+using Dershane.DataAccsess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

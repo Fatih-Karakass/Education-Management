@@ -1,11 +1,11 @@
-﻿using Ders1.Models;
+﻿using Dershane.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Repository.IRepository
+namespace Dershane.DataAccsess.Repository.IRepository
 {
     public interface ITeacherRepository : IRepository<Teacher>
     {

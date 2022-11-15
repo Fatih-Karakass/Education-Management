@@ -1,4 +1,4 @@
-namespace Ders1.Models
+namespace Dershane.Domain.Models
 {
     public class ErrorViewModel
     {

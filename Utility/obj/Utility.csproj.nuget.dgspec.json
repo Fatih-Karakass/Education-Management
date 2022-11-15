@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj": {}
+    "C:\\Users\\user\\Desktop\\Education-Management\\Utility\\Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj": {
+    "C:\\Users\\user\\Desktop\\Education-Management\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\Utility.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Utility\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

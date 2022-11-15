@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Education-Management\DataAccess\bin\Debug\net6.0\Dershane.DataAccsess.deps.json
+C:\Users\user\Desktop\Education-Management\DataAccess\bin\Debug\net6.0\Dershane.DataAccsess.runtimeconfig.json
+C:\Users\user\Desktop\Education-Management\DataAccess\bin\Debug\net6.0\Dershane.DataAccsess.dll
+C:\Users\user\Desktop\Education-Management\DataAccess\bin\Debug\net6.0\Dershane.DataAccsess.pdb
+C:\Users\user\Desktop\Education-Management\DataAccess\bin\Debug\net6.0\Dershane.Domain.dll
+C:\Users\user\Desktop\Education-Management\DataAccess\bin\Debug\net6.0\Dershane.Domain.pdb
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.AssemblyInfo.cs
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.csproj.CopyComplete
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.dll
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\refint\Dershane.DataAccsess.dll
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.pdb
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\Dershane.DataAccsess.genruntimeconfig.cache
+C:\Users\user\Desktop\Education-Management\DataAccess\obj\Debug\net6.0\ref\Dershane.DataAccsess.dll

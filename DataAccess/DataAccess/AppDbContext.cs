@@ -1,12 +1,12 @@
-﻿using Ders1.Models;
+﻿using Dershane.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ders1.DataAccess
+namespace Dershane.DataAccsess.DataAccess
 {
     public class AppDbContext : DbContext
     {
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Lesson> Lesson { get; set; }
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
+       public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
     }
 }

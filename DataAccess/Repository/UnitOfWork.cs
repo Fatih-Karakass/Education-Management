@@ -1,5 +1,6 @@
-﻿using DataAccess.Repository.IRepository;
-using Ders1.DataAccess;
+﻿
+using Dershane.DataAccsess.DataAccess;
+using Dershane.DataAccsess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Repository
+namespace Dershane.DataAccsess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

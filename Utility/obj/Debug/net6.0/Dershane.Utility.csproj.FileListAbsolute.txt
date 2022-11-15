@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Education-Management\Utility\bin\Debug\net6.0\Dershane.Utility.deps.json
+C:\Users\user\Desktop\Education-Management\Utility\bin\Debug\net6.0\Dershane.Utility.dll
+C:\Users\user\Desktop\Education-Management\Utility\bin\Debug\net6.0\Dershane.Utility.pdb
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.AssemblyInfo.cs
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.dll
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\refint\Dershane.Utility.dll
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\Dershane.Utility.pdb
+C:\Users\user\Desktop\Education-Management\Utility\obj\Debug\net6.0\ref\Dershane.Utility.dll

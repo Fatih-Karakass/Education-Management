@@ -1,11 +1,10 @@
-﻿using DataAccess.Repository;
-using DataAccess.Repository.IRepository;
-using Ders1.DataAccess;
-using Ders1.Models;
+﻿
+using Dershane.DataAccsess.Repository.IRepository;
+using Dershane.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Ders1.Controllers
+namespace Dershane.Mvc.Controllers
 {
     public class LessonController : Controller
     {
@@ -51,7 +50,7 @@ namespace Ders1.Controllers
         }
         public IActionResult Remove(int? id)
         {
-            if(id==null|| id == 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
@@ -71,7 +70,7 @@ namespace Ders1.Controllers
             {
                 return NotFound();
             }
-            
+
             Lesson lesson = unitOfWork.Lesson.GetAsync(x => x.Id == id).Result;
             if (lesson == null)
             {
@@ -84,7 +83,7 @@ namespace Ders1.Controllers
             return RedirectToAction(nameof(Index));
 
         }
-        
+
         public IActionResult Update(int? id)
         {
             if (id == null || id == 0)

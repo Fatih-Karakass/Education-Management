@@ -1817,17 +1817,17 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Domain/1.0.0": {
+      "Dershane.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Dershane.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Dershane.Domain.dll": {}
         }
       }
     }
@@ -5568,15 +5568,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Domain/1.0.0": {
+    "Dershane.Domain/1.0.0": {
       "type": "project",
-      "path": "../Models/Domain.csproj",
-      "msbuildProject": "../Models/Domain.csproj"
+      "path": "../Models/Dershane.Domain.csproj",
+      "msbuildProject": "../Models/Dershane.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Domain >= 1.0.0",
+      "Dershane.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
@@ -5589,11 +5589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj",
-      "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj",
+      "projectName": "Dershane.DataAccsess",
+      "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5610,8 +5610,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj"
+            "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj"
             }
           }
         }

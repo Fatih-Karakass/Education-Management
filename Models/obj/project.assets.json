@@ -4063,11 +4063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj",
+      "projectName": "Dershane.Domain",
+      "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

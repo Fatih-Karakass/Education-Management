@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Ders1\\Ders1.csproj": {}
+    "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj",
+        "projectName": "Dershane.DataAccsess",
+        "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Ders1\\Ders1.csproj": {
+    "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Ders1\\Ders1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj",
         "projectName": "Ders1",
-        "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Ders1\\Ders1.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\Ders1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Ders1\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\Ders1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,11 +109,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj"
               },
-              "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj"
+              "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj",
+        "projectName": "Dershane.Domain",
+        "projectPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\Dershane.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\Models\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Education-Management\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

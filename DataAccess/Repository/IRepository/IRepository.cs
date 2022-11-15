@@ -1,8 +1,7 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace DataAccess.Repository.IRepository
+namespace Dershane.DataAccsess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {

@@ -1,13 +1,13 @@
-﻿using DataAccess.Repository.IRepository;
-using Ders1.DataAccess;
-using Ders1.Models;
+﻿using Dershane.DataAccsess.DataAccess;
+using Dershane.DataAccsess.Repository.IRepository;
+using Dershane.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Repository
+namespace Dershane.DataAccsess.Repository
 {
     public class TeacherRepository : Repository<Teacher>, ITeacherRepository
     {

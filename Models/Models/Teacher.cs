@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Ders1.Models
+namespace Dershane.Domain.Models
 {
     public class Teacher
     {
@@ -13,7 +13,7 @@ namespace Ders1.Models
         [DisplayName("İsim")]
         public string Name { get; set; }
 
-        [Required (ErrorMessage = "Email Adresi Boş bırakılmamalıdır.")]
+        [Required(ErrorMessage = "Email Adresi Boş bırakılmamalıdır.")]
         [EmailAddress(ErrorMessage = "Lütfen Geçerli Bir Mail Gİriniz.")]
         public string Email { get; set; }
 

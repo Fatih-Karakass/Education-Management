@@ -1,9 +1,9 @@
-﻿using DataAccess.Repository.IRepository;
-using Ders1.DataAccess;
-using Ders1.Models;
+﻿
+using Dershane.DataAccsess.Repository.IRepository;
+using Dershane.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ders1.Controllers
+namespace Dershane.Mvc.Controllers
 {
     public class TeacherController : Controller
     {
@@ -43,7 +43,7 @@ namespace Ders1.Controllers
             unitOfWork.Save();
 
             TempData["success"] = "Teacher created succeffully";
-            
+
             return RedirectToAction(nameof(Index));
         }
 
@@ -51,7 +51,7 @@ namespace Ders1.Controllers
         {
             if (id == null || id == 0)
             {
-                
+
                 return NotFound();
             }
             Teacher teacher = unitOfWork.Teacher.GetAsync(x => x.Id == id).Result;

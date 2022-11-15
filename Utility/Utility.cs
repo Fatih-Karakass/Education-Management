@@ -1,4 +1,4 @@
-﻿namespace Utility
+﻿namespace Dershane.Utility
 {
     public class Utility
     {

@@ -1,8 +1,9 @@
-﻿using Ders1.Models;
+﻿
+using Dershane.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Ders1.Controllers
+namespace Dershane.Mvc.Controllers
 {
     public class HomeController : Controller
     {

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Ders1.Models
+namespace Dershane.Domain.Models
 {
     public class Lesson
     {
@@ -15,7 +15,7 @@ namespace Ders1.Models
         [DisplayName("Ders Adı:")]
         public string LessonName { get; set; }
 
-        
+
         [ForeignKey("TeacherId")]
         [ValidateNever]
         public Teacher Teacher { get; set; }

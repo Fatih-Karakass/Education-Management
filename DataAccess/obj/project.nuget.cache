@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sdixz6AwIIt+2YijHJjX+YVhxq9baM1hm8Hy4/nlcuA4kf/034ZIuGU4R7Itl+6012ppwhUPkAmIjdS958t8oA==",
+  "dgSpecHash": "X6kQipdYGajbDG0zB6nEkf2GSrQMeV2e6jO4PWX3SwnOfIhGH63kKcTGwm0LyEjsIdqBn86+LwO1yCibmojfZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Yeni klasör\\Education-Management\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Education-Management\\DataAccess\\Dershane.DataAccsess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
